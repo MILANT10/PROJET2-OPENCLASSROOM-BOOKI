@@ -1,6 +1,7 @@
 /****** General ***********/
 * {
   font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
 }
 
 /***** Variables *****/
@@ -145,6 +146,10 @@ nav a:hover::after {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   color: white;
+}
+
+.search-button i {
+  display: none;
 }
 
 /***** Filters *****/
@@ -533,6 +538,7 @@ footer ul {
 
   .search-button i {
     color: white;
+    display: block;
   }
 
   .filters-section .text-medium {
