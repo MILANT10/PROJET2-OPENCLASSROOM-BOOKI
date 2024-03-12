@@ -290,6 +290,23 @@ a {
   padding: 0;
 }
 
+/***** Footer *****/
+
+footer {
+  display: flex;
+  height: 163px;
+  width: 100%;
+  background-color: var(--main-bg-color);
+}
+
+footer ul {
+  width: 446px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
 /****** Card ***********/
 
 .card {
