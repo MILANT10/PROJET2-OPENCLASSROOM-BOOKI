@@ -113,7 +113,6 @@ nav a:hover::after {
 
 .search-icon {
   display: flex;
-  height: 100%;
   width: 50px;
   align-items: center;
   justify-content: center;
@@ -468,5 +467,127 @@ footer ul {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-  /* ... */
+  .hebergements-and-populaires section:nth-child(1) {
+    background-color: transparent;
+  }
+  .main-container {
+    padding: 0;
+  }
+
+  header {
+    flex-direction: column;
+    padding: 30px 0px;
+  }
+
+  nav {
+    width: 100%;
+    gap: 0px;
+  }
+
+  nav a {
+    width: 100%;
+    text-align: center;
+  }
+
+  nav a:nth-child(1) {
+    color: var(--main-color);
+  }
+
+  nav a:nth-child(1)::after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--main-color);
+  }
+  nav a:nth-child(2)::after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--main-bg-color);
+  }
+
+  .search-and-filters {
+    padding: 0px 20px;
+  }
+
+  .search-form,
+  .search-input {
+    width: 100%;
+  }
+
+  .search-button {
+    width: 49px;
+    height: 49px;
+    border-radius: 15px;
+    padding: 15px 16px 15px 16px;
+  }
+
+  .search-button p {
+    display: none;
+  }
+
+  .search-button i {
+    color: white;
+  }
+
+  .filters-section .text-medium {
+    width: 100%;
+  }
+
+  .filters-section {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .filter {
+    width: 140px;
+  }
+
+  .hebergements-and-populaires {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+
+  .populaires-cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .populaires-cards a {
+    width: 100%;
+  }
+
+  .hebergements {
+    width: 100%;
+  }
+
+  .hebergements .hebergements-card .card,
+  a {
+    width: 100%;
+  }
+
+  .activities .activities-cards {
+    flex-direction: column;
+  }
+
+  .activities .activities-cards .card,
+  a {
+    width: 100%;
+  }
+
+  footer {
+    flex-direction: column;
+    height: fit-content;
+    padding: 30px;
+  }
+
+  footer ul {
+    padding: 0;
+  }
 }
