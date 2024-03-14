@@ -532,7 +532,7 @@ footer ul {
     padding: 15px 16px 15px 16px;
   }
 
-  .search-button p {
+  .search-button span {
     display: none;
   }
 
@@ -541,17 +541,20 @@ footer ul {
     display: block;
   }
 
-  .filters-section .text-medium {
+  .filters-section .section-title {
     width: 100%;
   }
 
   .filters-section {
     flex-wrap: wrap;
-    justify-content: space-between;
   }
 
   .filter {
-    width: 140px;
+    width: fit-content;
+  }
+
+  .filter p {
+    font-size: 14px;
   }
 
   .hebergements-and-populaires {
