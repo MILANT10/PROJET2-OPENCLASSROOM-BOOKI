@@ -471,7 +471,8 @@ footer ul {
 
 /* Devices between desktop and mobile (tablet) */
 @media (min-width: 768px) and (max-width: 1023.98px) {
-  .filter p {
+  .filter p,
+  .activities .activities-cards .card h3 {
     font-size: 14px;
   }
 
@@ -484,9 +485,6 @@ footer ul {
     gap: 15px;
     justify-content: center;
   }
-  .activities .activities-cards .card h3 {
-    font-size: 14px;
-  }
 }
 
 /* Small devices (phones, less than 768px) */
@@ -494,7 +492,8 @@ footer ul {
   .hebergements-and-populaires section:nth-child(1) {
     background-color: transparent;
   }
-  .main-container {
+  .main-container,
+  footer ul {
     padding: 0;
   }
 
@@ -604,10 +603,6 @@ footer ul {
     flex-direction: column;
     height: fit-content;
     padding: 30px;
-  }
-
-  footer ul {
-    padding: 0;
   }
 }
 
