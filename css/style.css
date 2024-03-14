@@ -415,6 +415,14 @@ footer ul {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+  .filters-section {
+    flex-wrap: wrap;
+  }
+
+  .filters-section .section-title {
+    width: 100%;
+  }
+
   .hebergements-and-populaires {
     flex-direction: column;
   }
@@ -566,7 +574,7 @@ footer ul {
   }
 
   .filter {
-    width: fit-content;
+    width: 140px;
   }
 
   .filter p {
@@ -606,8 +614,17 @@ footer ul {
   }
 }
 
+@media (max-width: 376px) {
+  .filter {
+    width: 35%;
+  }
+}
 @media (max-width: 320px) {
   .filter p {
     font-size: 11px;
+  }
+
+  .filter {
+    width: 90px;
   }
 }
