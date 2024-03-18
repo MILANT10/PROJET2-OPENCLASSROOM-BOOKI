@@ -421,6 +421,7 @@ footer ul {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+  /***** Filters  *****/
   .filters-section {
     flex-wrap: wrap;
   }
@@ -429,6 +430,8 @@ footer ul {
   .hebergements {
     width: 100%;
   }
+
+  /***** Hebergerments and populaires *****/
 
   .hebergements-and-populaires {
     flex-direction: column;
@@ -462,6 +465,8 @@ footer ul {
     font-size: 13px;
   }
 
+  /***** Activities *****/
+
   .activities .activities-cards .card {
     width: 193px;
     height: 270px;
@@ -470,6 +475,8 @@ footer ul {
   .activities .activities-cards img {
     height: 200px;
   }
+
+  /***** Footer*****/
 
   footer {
     gap: 30px;
@@ -482,6 +489,8 @@ footer ul {
 
 /* Devices between desktop and mobile (tablet) */
 @media (min-width: 768px) and (max-width: 1023.98px) {
+  /***** Filter and activities *****/
+
   .filter p,
   .activities .activities-cards .card h3 {
     font-size: 14px;
@@ -500,13 +509,17 @@ footer ul {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-  .hebergements-and-populaires section:nth-child(1) {
-    background-color: transparent;
-  }
+  /***** Main container *****/
+
   .main-container,
   footer ul {
     padding: 0;
   }
+  .hebergements-and-populaires section:nth-child(1) {
+    background-color: transparent;
+  }
+
+  /***** Header *****/
 
   header {
     flex-direction: column;
@@ -540,6 +553,8 @@ footer ul {
   nav a:nth-child(2)::after {
     background-color: var(--main-bg-color);
   }
+
+  /***** Search and filters *****/
 
   .search-and-filters {
     padding: 0px 20px;
@@ -579,6 +594,8 @@ footer ul {
     font-size: 14px;
   }
 
+  /***** Hebergerments and populaires *****/
+
   .hebergements-and-populaires {
     flex-direction: column-reverse;
     gap: 30px;
@@ -605,6 +622,8 @@ footer ul {
     flex-direction: column;
   }
 
+  /***** Footer *****/
+
   footer {
     flex-direction: column;
     height: fit-content;
@@ -614,11 +633,15 @@ footer ul {
 
 /* Particularities for some devices */
 @media (max-width: 376px) {
+  /***** Filters *****/
+
   .filter {
     width: 35%;
   }
 }
 @media (max-width: 320px) {
+  /***** Filters *****/
+
   .filter p {
     font-size: 11px;
   }
