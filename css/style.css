@@ -645,10 +645,26 @@ footer ul {
 
 /* Particularities for some devices */
 @media (max-width: 376px) {
+  /***** Hebergements, Populaires-cards, activities  *****/
+
+  .hebergements .hebergements-card,
+  .populaires-cards,
+  .activities .activities-cards {
+    gap: 15px;
+  }
+
+  .populaires-cards .card {
+    margin-top: 0;
+  }
+
   /***** Filters *****/
 
   .filter {
     width: 35%;
+  }
+
+  footer {
+    gap: 50px;
   }
 }
 @media (max-width: 320px) {
