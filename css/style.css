@@ -504,6 +504,10 @@ footer ul {
     font-size: 14px;
   }
 
+  .filters-section .text-medium {
+    width: 100%;
+  }
+
   .activities .activities-cards .card {
     width: 150px;
     height: 300px;
@@ -570,7 +574,7 @@ footer ul {
 
   .search-form,
   .search-input,
-  .filters-section .section-title {
+  .filters-section .text-medium {
     width: 100%;
   }
 
