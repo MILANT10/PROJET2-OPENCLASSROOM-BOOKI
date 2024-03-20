@@ -517,6 +517,15 @@ footer ul {
     gap: 15px;
     justify-content: center;
   }
+
+  .populaires-cards {
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .populaires-cards .card img {
+    width: 65px;
+  }
 }
 
 /* Small devices (phones, less than 768px) */
@@ -617,7 +626,13 @@ footer ul {
   .populaires {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 15px;
+  }
+
+  .populaires .populaires-title {
+    width: 100%;
   }
 
   .populaires-cards {
