@@ -29,6 +29,12 @@
   margin: 0;
 }
 
+.section-title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+}
+
 /****** Icon From Font Awesome *****/
 .fa-solid {
   color: var(--main-color);
@@ -53,12 +59,6 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-}
-
-.section-title {
-  margin: 0;
-  font-size: 22px;
-  font-weight: 700;
 }
 
 /****** Header ***********/
@@ -211,9 +211,6 @@ nav a:hover::after {
   width: 24px;
 }
 *
-
-
-
 
 /***** Hebergements *****/
 
@@ -518,6 +515,8 @@ footer ul {
     justify-content: center;
   }
 
+  /***** Populaires *****/
+
   .populaires-cards {
     justify-content: center;
     gap: 30px;
@@ -536,6 +535,9 @@ footer ul {
   footer ul {
     padding: 0;
   }
+
+  /***** Hebergements and Populaires *****/
+
   .hebergements-and-populaires section:nth-child(1) {
     background-color: transparent;
   }
