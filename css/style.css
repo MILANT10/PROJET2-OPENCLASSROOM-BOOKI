@@ -474,11 +474,11 @@ footer ul {
 
   .activities .activities-cards .card {
     width: 193px;
-    height: 270px;
+    max-height: 270px;
   }
 
   .activities .activities-cards img {
-    height: 200px;
+    max-height: 190px;
   }
 
   /***** Footer*****/
@@ -494,6 +494,10 @@ footer ul {
 
 /* Devices between desktop and mobile (tablet) */
 @media (min-width: 768px) and (max-width: 1023.98px) {
+  .hebergements .hebergements-card {
+    justify-content: center;
+    gap: 60px;
+  }
   /***** Filter and activities *****/
 
   .filter p,
@@ -506,13 +510,12 @@ footer ul {
   }
 
   .activities .activities-cards .card {
-    width: 150px;
-    height: 300px;
+    width: 140px;
+    height: 280px;
   }
 
   .activities .activities-cards {
-    gap: 15px;
-    justify-content: center;
+    gap: 20px;
   }
 
   /***** Populaires *****/
