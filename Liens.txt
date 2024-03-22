@@ -1,0 +1,3 @@
+Repo sur github : https://github.com/MILANT10/PROJET2-OPENCLASSROOM-BOOKI
+
+Host du site via github pages : https://milant10.github.io/PROJET2-OPENCLASSROOM-BOOKI/
